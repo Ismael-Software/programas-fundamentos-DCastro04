@@ -1,0 +1,22 @@
+class persona:
+    def __init__(self, nom, ap, ed):
+        self.nombre = nom
+        self.apaterno = ap
+        self.edad = ed
+
+    def saludar(self):
+       print("Hola, mucho gusto")
+
+    def mostrarInfo(self):
+        print("Nombre: ",self.nombre,"\napellido:",self.apaterno,"\nEdad:",self.edad)
+
+profesor = persona("Gibran","Fuentes",18)
+profesor.saludar()
+profesor.mostrarInfo()
+alumno = persona("Dairi","Reyes",18)
+
+vendedor = persona("Arial","Bustamante",18)
+
+print(profesor.nombre,profesor.apaterno,profesor.edad)
+print(alumno.nombre,alumno.apaterno,alumno.edad)
+print(vendedor.nombre,vendedor.apaterno,vendedor.edad)
