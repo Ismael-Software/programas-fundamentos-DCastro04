@@ -5,10 +5,12 @@ class persona:
         self.edad = ed
 
     def saludar(self):
-       print("Hola, mucho gusto")
+       print("Hola, mucho gusto","\nEstoy comiendo")
 
     def mostrarInfo(self):
         print("Nombre: ",self.nombre,"\nApellido:",self.apaterno,"\nEdad:",self.edad)
+
+
 profesor = persona("Gibran","Fuentes",18)
 profesor.saludar()
 profesor.mostrarInfo()
