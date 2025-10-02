@@ -8,14 +8,18 @@ class persona:
        print("Hola, mucho gusto")
 
     def mostrarInfo(self):
-        print("Nombre: ",self.nombre,"\napellido:",self.apaterno,"\nEdad:",self.edad)
-
+        print("Nombre: ",self.nombre,"\nApellido:",self.apaterno,"\nEdad:",self.edad)
 profesor = persona("Gibran","Fuentes",18)
 profesor.saludar()
 profesor.mostrarInfo()
+
 alumno = persona("Dairi","Reyes",18)
+alumno.saludar()
+alumno.mostrarInfo()
 
 vendedor = persona("Arial","Bustamante",18)
+vendedor.saludar()
+vendedor.mostrarInfo()
 
 print(profesor.nombre,profesor.apaterno,profesor.edad)
 print(alumno.nombre,alumno.apaterno,alumno.edad)
