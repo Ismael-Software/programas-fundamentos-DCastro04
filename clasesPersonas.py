@@ -8,7 +8,7 @@ class persona:
        print("Hola, mucho gusto","\nEstoy comiendo")
 
     def mostrarInfo(self):
-        print("Nombre: ",self.nombre,"\nApellido:",self.apaterno,"\nEdad:",self.edad)
+        print("Nombre: ",self.nombre,"\nApellido:",self.apaterno,"\nEdad:",self.edad,"\n")
 
 
 profesor = persona("Gibran","Fuentes",18)
