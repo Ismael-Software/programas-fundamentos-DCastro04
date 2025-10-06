@@ -37,8 +37,12 @@ pagani.mostrarInfo()
 koegnisegg= car(1000,"Agera RS","Agera RS","Carbon fiber forged",2,2)
 koegnisegg.mostrarInfo()
 
+bugatti= car(1500,"Chiron","Super Sport 300+","Blue",2,2)
+bugatti.mostrarInfo()
+
 print(lamborghini.horsepower,lamborghini.model,lamborghini.version,lamborghini.color,lamborghini.num_of_seats,lamborghini.num_of_doors)
 print(ferrari.horsepower,ferrari.model,ferrari.version,ferrari.color,ferrari.num_of_seats,ferrari.num_of_doors)
 print(porsche.horsepower,porsche.model,porsche.version,porsche.color,porsche.num_of_seats,porsche.num_of_doors)
 print(pagani.horsepower,pagani.model,pagani.version,pagani.color,pagani.num_of_seats,pagani.num_of_doors)
 print(koegnisegg.horsepower,koegnisegg.model,koegnisegg.version,koegnisegg.color,koegnisegg.num_of_seats,koegnisegg.num_of_doors)
+print(bugatti.horsepower,bugatti.model,bugatti.version,bugatti.color,bugatti.num_of_seats,bugatti.num_of_doors)
